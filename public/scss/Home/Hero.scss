@@ -1,0 +1,75 @@
+:root {
+  --custom-green: #3bb77e;
+  --custom-Gray: #fafafa;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.hero-container {
+  position: static;
+  max-width: 100% !important;
+  width: 100vw !important;
+  padding: 0px 0px;
+  background-image: url('../../images/background/rsz_artificial-intelligence.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hired-button {
+  background-color: var(--custom-green);
+  color: white;
+  width: fit-content;
+}
+.hired-button:hover {
+  background-color: var(--custom-green);
+  color: white;
+}
+.Gethir-heding {
+  font-weight: bold !important;
+}
+.Headings {
+  font-size: 35px !important;
+  font-weight: bold;
+}
+.Ugohire-body {
+  background-color: var(--custom-Gray);
+}
+.elementor-icon {
+  fill: #00911ec2;
+  color: #00911ec2;
+  transform: rotate(339deg);
+  font-size: 50px;
+}
+.icons-ug {
+  border-color: #00911ec2;
+  border: 2px solid #00911ec2 !important;
+  border-radius: 50% !important;
+  width: 100px;
+  height: 100px;
+  margin: 0px 140px;
+}
+.testimonial-image {
+  border-radius: 50%;
+}
+.title-box h3 {
+  color: white;
+}
