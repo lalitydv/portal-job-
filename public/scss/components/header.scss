@@ -157,8 +157,8 @@ Main Header
   right: 0px;
   top: 50%;
   margin-top: -10px;
-  font-family: "Font Awesome 5 Free";
-  content: "\f107";
+  font-family: 'Font Awesome 5 Free';
+  content: '\f107';
   display: block;
   line-height: 20px;
   font-size: 14px;
@@ -203,7 +203,7 @@ Main Header
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
   border-bottom: 5px solid var(--primary-color);
-  content: "";
+  content: '';
 }
 
 .main-menu .navigation > li > ul.from-right {
@@ -309,8 +309,8 @@ Main Header
   right: 30px;
   top: 50%;
   margin-top: -10px;
-  font-family: "Font Awesome 5 Free";
-  content: "\f105";
+  font-family: 'Font Awesome 5 Free';
+  content: '\f105';
   display: block;
   line-height: 20px;
   font-size: 15px;
@@ -653,7 +653,7 @@ Mobile Header
 .mobile-header:after {
   display: table;
   clear: both;
-  content: "";
+  content: '';
 }
 
 .mobile-header .logo {
